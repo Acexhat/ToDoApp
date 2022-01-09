@@ -12,7 +12,7 @@ export default function List(props) {
                 {props.task.completed ? <Ionicons name="checkmark-done" size={24} color="green" /> : null}
             </View>
             <TouchableOpacity onPress={() => { props.handleDeleteTask(props.idx) }}>
-                <AntDesign name="delete" size={22} color="black" />
+                <AntDesign name="delete" size={22} color="#d11a2a" />
             </TouchableOpacity>
         </View>
     );
